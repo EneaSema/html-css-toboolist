@@ -25,12 +25,15 @@
   line-height: middle;
 }
 
+/* parte inerente ad header*/
+
+/* inizio parte inerente al main*/
 .container-out {
   background-color: rgb(137, 138, 136);
   padding: 50px 20px;
 }
 
-.container-in {
+.container-middle {
   background-color: rgb(221, 125, 0);
   max-width: 1100px;
   margin: 0 auto;
@@ -38,48 +41,69 @@
   border-top-right-radius: 15px;
 }
 
+.container-middle .container-in {
+  border: 2px solid black;
+  padding-left: 30px;
+}
+
+/* parte inerente ai contenitori */
+
+/* parte inerente alla prima parte di sezione con i tasti */
+
+/* parte inerente alla sezione dei tasti di new task */
+
+.new_task {
+  padding-top: 15px;
+}
+
 .add_task {
   background-color: rgb(0, 153, 255);
   color: white;
-  border-radius: 30px;
-  margin: 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 3px;
 }
 
 .add_section {
   background-color: rgb(255, 255, 255);
-  color: rgba(245, 3, 3, 0.459);
+  color: rgba(70, 70, 70, 0.459);
   border-radius: 5px;
-  margin: 30px;
-  width: 75px;
-  height: 75px;
-  line-height: middle;
+  margin: 10px 0px;
+  padding: 3px;
 }
 
-.new_task.today {
-  margin: 30px;
+.indicator {
+  font-size: 17px;
 }
 
 .new_task-write {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bolder;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.new_task-write_text {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .indicator-verificated {
   border-radius: 50%;
   border: 1px solid green;
   color: green;
+  padding: 1px;
 }
 
 .editorial {
   border-radius: 10px;
   background-color: rgb(0, 153, 255);
   color: rgb(255, 255, 255);
-  width: 50px;
-  height: 50px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 3px;
 }
 
-.indicator-verificated_no {
+.indicator-verificated-no {
   border-radius: 50%;
   border: 1px solid rgb(255, 0, 0);
   color: red;
