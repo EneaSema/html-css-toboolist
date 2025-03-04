@@ -1,3 +1,4 @@
+/* regole generali */
 * {
   margin: 0px;
   padding: 0px;
@@ -21,9 +22,10 @@ h1 {
 
 body {
   background-color: grey;
+  height: 100%;
 }
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
