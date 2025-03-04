@@ -1,3 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: lightgray;
+}
+
+#intestazione {
+  background-color: white;
+  height: 50px;
+}
+
+#logo {
+  padding-left: 30px;
+}
+h1 {
+  display: inline-block;
+  line-height: 100%;
 }
