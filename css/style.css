@@ -1,21 +1,29 @@
 * {
   margin: 0px;
   padding: 0px;
-}
-
-body {
-  background-color: lightgray;
+  box-sizing: border-box;
 }
 
 #intestazione {
-  background-color: white;
-  height: 50px;
+  background-color: rgb(245, 242, 242);
 }
 
 #logo {
-  padding-left: 30px;
+  margin-left: 15px;
 }
+
 h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
   display: inline-block;
-  line-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: grey;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: black;
 }
